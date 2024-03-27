@@ -3,6 +3,7 @@
 3. For `task_2_Interface_Implementation.php`, you have to assign a valid log file path (which has no permission related problem) to `$logFile` at line 46.
 4. For the `ToDoModule` directory, that is the 'CRUD' project, open the `ToDoModule` directory path in terminal. Then:
 
+- Run `composer install` and then `npm install` to ensure all the dependencies are combined.
 - Run `php artisan migrate` and select 'sqlite' as database, then confirm hitting 'yes' to create the db.
 - Run `php artisan db:seed` to seed in db.
 - Open the url `http://localhost:8000` to try the 'CRUD' project.
