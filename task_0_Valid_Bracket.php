@@ -48,9 +48,10 @@ function validateBracket( $string = '', $messageShow = true ) {
     if ( $bracketFound !== '' ) {
         $message = "Character Position {$ifUnsolvedPosition}: This opening bracket '{$bracketFound}' was never closed!\n\n";
         if ( $messageShow == true ) {
-            echo $message;
-            return false;
+            echo $message;    
         }
+
+        return false;
     }
     return true;
 }
